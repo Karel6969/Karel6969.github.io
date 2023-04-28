@@ -123,8 +123,8 @@ div{
 }
 @media screen and (max-width: 600px) {
   img {
-    max-width: 35vh;
-    max-height: 35vh;
+    max-width: 40vh;
+    max-height: 40vh;
     width: 100%;
     height: auto;
     display: none;
