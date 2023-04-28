@@ -1,0 +1,210 @@
+
+body{
+
+	background: #151D21;
+  width: 100%
+  margin: 0;
+  padding: 0;
+}
+header{
+
+	color:white;
+	padding: 20px;
+  background: #211915;
+	margin: -10;
+
+}
+
+header h1{
+     
+    font-size: 25px;
+    display: inline;
+    margin-left: 10;
+}
+nav ul{
+	
+  margin: 0;
+  padding: 0 0 0 4px;
+	display:inline;
+	
+}
+nav ul li{
+   
+   list-style-type: none;
+   display: inline-block;
+   color: white;
+   padding: 0px 6px;
+   margin: 0;
+
+}
+nav ul li a{
+   font-size: 20px;
+   color: white;
+   text-decoration: none;
+
+}
+a{
+
+	color: white;
+	font-size: 20;
+	
+}
+h2{
+
+	color: white;
+	
+	
+}
+img{
+ 
+  max-width: 75%;
+  max-height: 700px;
+  width: auto;
+  height: auto;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:1%;
+
+}
+input{
+
+display: none;
+
+}
+label{
+
+  color: #fff;
+  background: #e3362c;
+  width: 200px;
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 5px;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  height: 20px;
+}
+#Box {
+  display: block;
+  justify-content: center;
+  text-align: center;
+
+  
+}
+
+#colorPalette {
+  font-size: 15px;
+  height: 50px;
+  display: flex;
+  margin: 0 auto;
+  color: #FFF;
+  grid-gap: 10px;
+  grid-row-gap: 40px;
+  margin-top: 2%;
+  
+}
+div{
+
+  align-content: center;
+  justify-content: center;
+  margin: 5px;
+}
+.dotted{
+
+  background: #151D21;
+  border: 2px dashed #fff;
+  width: 80%;
+  height: 75%;
+  margin: 0 auto;
+  margin-top: 1%;
+
+
+}
+@media screen and (max-width: 600px) {
+  img {
+    max-width: 100%;
+    max-height: 70%;
+    width: 100%;
+    height: auto;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  header {
+    color: white;
+    padding: 12px;
+    background: #211915;
+    margin: -10;
+    width: 100%;
+  }
+header h1{
+     
+    font-size: 20px;
+    display: inline;
+}
+nav ul li a{
+   font-size: 1rem;
+   color: white;
+   text-decoration: none;
+
+}
+label{
+
+  color: #fff;
+  background: #e3362c;
+  width: 180px;
+  height: 15px;
+  padding: 12px;
+  margin: 8px auto;
+  border-radius: 5px;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+}
+nav ul{
+  
+  margin:0;
+  display:inline;
+  padding: 0 0 0 4px;
+}
+nav ul li{
+   
+   list-style-type: none;
+   display: inline-block;
+   color: white;
+   padding: 0px 6px;
+   margin: 0;
+
+}
+#colorPalette {
+  font-size: 12px;
+  height: 50px;
+  display: flex;
+  margin: 0 auto;
+  color: #FFF;
+  flex-wrap: wrap;
+  margin-top: 15%;
+  grid-gap: 10px;
+  grid-row-gap: 40px;
+}
+.dotted{
+
+  background: #151D21;
+  border: 2px dashed #fff;
+  width: 90%;
+  height: 25%;
+  margin: 0 auto;
+
+
+}
+#Box {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30%;
+  
+}
+
+}
